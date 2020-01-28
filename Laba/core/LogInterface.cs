@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Laba
+namespace core
 {
-    class Program
-    {         
+    interface LogInterface
+    {
+        //void log(string str); 
+        //void write(); 
     }
 }

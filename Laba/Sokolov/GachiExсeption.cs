@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Laba
+namespace Sokolov
 {
-    class Program
-    {         
+    class GachiExсeption : Exception
+    {
+        public GachiExсeption(string a) : base(a) { }
     }
 }
