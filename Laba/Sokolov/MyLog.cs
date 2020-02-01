@@ -23,7 +23,7 @@ namespace Sokolov
         }
         override public void _write()
         {
-            string path = @"Laba\bin\Debug\version.txt";
+            string path = @"version.txt";
             Directory.CreateDirectory("Log");
             using(StreamReader sr = new StreamReader(path))
             {
